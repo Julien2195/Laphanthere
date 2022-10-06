@@ -46,9 +46,8 @@ body {
 }
 
 a,
-button {
+button:focus {
     transition: all .3s ease-in-out;
-    outline: none !important;
     text-decoration: none;
 
 }
@@ -143,7 +142,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
+.d-bloc button:focus {
     color: rgba(255, 255, 255, .7);
 }
 
@@ -200,7 +199,9 @@ a:hover {
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
-
+.navbar-toggle:focus{
+    background-color: yellow;
+}
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
@@ -211,7 +212,9 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover {
+.d-bloc .panel button:hover,
+.d-bloc .panel button:focus
+ {
     color: rgba(0, 0, 0, .7);
 }
 
@@ -243,10 +246,13 @@ a:hover {
 }
 
 .d-bloc .panel button:hover,
-.l-bloc button:hover {
+.l-bloc button:hover,
+.l-bloc button {
     color: rgb(0, 0, 0);
 }
-
+.d-bloc .panel button:focus{
+    background-color: yellow;
+}
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -368,11 +374,13 @@ a:hover {
     text-align: inherit;
 }
 
-.nav>li a:hover,
-.nav>li a:focus {
+.nav>li a:hover
+ {
     background: transparent;
 }
-
+.nav>li a:focus{
+    background-color: yellow;
+}
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -500,14 +508,13 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d:hover
+{
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
-
-button {
-    outline: none !important;
+.btn-d:focus {
+    background-color: yellow;
 }
 
 .btn-rd {
@@ -697,7 +704,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color:#000000;
+    color: #000000;
 }
 
 
