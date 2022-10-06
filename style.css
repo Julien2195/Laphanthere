@@ -472,12 +472,15 @@ nav .caret {
     margin: 6px -5px 0 0 !important;
     float: right;
 }
-
-.mg-md {
+.mg-md
+ {
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
-
+.mg-md h2{
+color:#424242
+}
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -689,7 +692,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
 }
 
 
@@ -714,6 +716,7 @@ a {
 
 p {
     font-size: 18px;
+    color: white;
 }
 
 .tight-width-whitespace {
@@ -771,9 +774,7 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF !important;
-}
+
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -811,12 +812,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: white !important;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF !important;
+    color: #424242 !important;
 }
 
 .btn-atomic-tangerine:hover {
