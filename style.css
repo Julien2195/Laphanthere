@@ -8,13 +8,41 @@ body {
 }
 
 
+/* RAJOUT DES TAILLES DES IMAGES POUR LE SEO */
+.col-xs-12 img{
+    width:567px;
+    height:145px;
+}
+.col-sm-6 img{
+width: 270px;
+height:270px;
+}
+
+.col-sm-12 img{
+    width:634px;
+    height:75px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.title2 img{
+    width:476px;
+    height: 99px;
+}
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
 }
 
-
+.navbar-brand img{
+    width: 217px;
+    height:40px;
+}
 
 a,
 button {
@@ -1106,3 +1134,4 @@ h4 {
         width: 100%;
     }
 }
+
