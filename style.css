@@ -9,18 +9,19 @@ body {
 
 
 /* RAJOUT DES TAILLES DES IMAGES POUR LE SEO */
-.col-xs-12 img{
-    width:567px;
-    height:145px;
-}
-.col-sm-6 img{
-width: 270px;
-height:270px;
+.col-xs-12 img {
+    width: 567px;
+    height: 145px;
 }
 
-.col-sm-12 img{
-    width:634px;
-    height:75px;
+.col-sm-6 img {
+    width: 270px;
+    height: 270px;
+}
+
+.col-sm-12 img {
+    width: 634px;
+    height: 75px;
 }
 
 .logo img {
@@ -28,8 +29,8 @@ height:270px;
     height: 100px;
 }
 
-.title2 img{
-    width:476px;
+.title2 img {
+    width: 476px;
     height: 99px;
 }
 
@@ -39,9 +40,9 @@ height:270px;
     justify-content: space-between;
 }
 
-.logo-panthere img{
+.logo-panthere img {
     width: 217px;
-    height:40px;
+    height: 40px;
 }
 
 a,
@@ -92,6 +93,10 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+.footer_texte {
+    color: black;
 }
 
 .bg-center,
@@ -472,15 +477,17 @@ nav .caret {
     margin: 6px -5px 0 0 !important;
     float: right;
 }
-.mg-md
- {
+
+.mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    
+
 }
-.mg-md h2{
-color:#424242
+
+.mg-md h2 {
+    color: #424242
 }
+
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -716,7 +723,6 @@ a {
 
 p {
     font-size: 18px;
-    color: white;
 }
 
 .tight-width-whitespace {
@@ -1114,4 +1120,3 @@ h4 {
         width: 100%;
     }
 }
-
