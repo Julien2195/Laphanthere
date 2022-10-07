@@ -17,8 +17,11 @@ body {
 .col-sm-6 img {
     width: 270px;
     height: 270px;
+    margin: 10px auto;
 }
-
+.col-sm-6, .col-sm-12{
+    text-align: center;
+}
 .col-sm-12 img {
     width: 634px;
     height: 75px;
@@ -84,6 +87,9 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bloc-md {
@@ -199,9 +205,11 @@ a:hover {
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
-.navbar-toggle:focus{
+
+.navbar-toggle:focus {
     background-color: yellow;
 }
+
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
@@ -213,8 +221,7 @@ a:hover {
 }
 
 .d-bloc .panel button:hover,
-.d-bloc .panel button:focus
- {
+.d-bloc .panel button:focus {
     color: rgba(0, 0, 0, .7);
 }
 
@@ -250,9 +257,11 @@ a:hover {
 .l-bloc button {
     color: rgb(0, 0, 0);
 }
-.d-bloc .panel button:focus{
+
+.d-bloc .panel button:focus {
     background-color: yellow;
 }
+
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -374,13 +383,14 @@ a:hover {
     text-align: inherit;
 }
 
-.nav>li a:hover
- {
+.nav>li a:hover {
     background: transparent;
 }
-.nav>li a:focus{
+
+.nav>li a:focus {
     background-color: yellow;
 }
+
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -508,11 +518,11 @@ nav .caret {
 }
 
 .btn-d,
-.btn-d:hover
-{
+.btn-d:hover {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
+
 .btn-d:focus {
     background-color: yellow;
 }
@@ -561,6 +571,19 @@ nav .caret {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    height:25px;
+    width:99%;
+}
+
+.form-message{
+    height:150px;
+}
+
+.form-group {
+    margin:auto;
+    width:700px;
+    margin-bottom:30px;
+
 }
 
 .scrollToTop {
@@ -792,10 +815,7 @@ h4 {
     margin-bottom: 24px;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
-}
+
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -934,7 +954,7 @@ h4 {
     .bloc-group,
     .bloc-group .bloc {
         display: block;
-        width: 100%;
+        width: 500px;
     }
 
 }
@@ -1086,7 +1106,7 @@ h4 {
     }
 
     form {
-        padding: 5px;
+        padding: 10px;
     }
 
     .close-lightbox {
@@ -1106,14 +1126,16 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-
+    .title2 img {
+        width: 100%;
+    }
     /* MODIF PROJET SEO */
-
+    
 
 }
 
@@ -1122,7 +1144,16 @@ h4 {
         text-align: center;
     }
 
-    .col-xs-12 img {
+    .col-xs-12 img,
+    .logo-description img {
         width: 100%;
+
+    }
+
+    .form-control {
+        width:98%;
+    }
+    .form-group{
+        width:99%;
     }
 }
