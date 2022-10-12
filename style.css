@@ -19,9 +19,12 @@ body {
     height: 270px;
     margin: 10px auto;
 }
-.col-sm-6, .col-sm-12{
+
+.col-sm-6,
+.col-sm-12 {
     text-align: center;
 }
+
 .col-sm-12 img {
     width: 634px;
     height: 75px;
@@ -48,12 +51,6 @@ body {
     height: 40px;
 }
 
-a,
-button:focus {
-    transition: all .3s ease-in-out;
-    text-decoration: none;
-
-}
 
 a:hover {
     text-decoration: none;
@@ -148,9 +145,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc button:focus {
-    color: rgba(255, 255, 255, .7);
-}
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -206,9 +200,7 @@ a:hover {
     background: rgba(255, 255, 255, 1);
 }
 
-.navbar-toggle:focus {
-    background-color: yellow;
-}
+
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
@@ -221,8 +213,8 @@ a:hover {
 }
 
 .d-bloc .panel button:hover,
-.d-bloc .panel button:focus {
-    color: rgba(0, 0, 0, .7);
+{
+color: rgba(0, 0, 0, .7);
 }
 
 .d-bloc .panel icon {
@@ -254,13 +246,14 @@ a:hover {
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover,
-.l-bloc button {
+.l-bloc button,
+.l-bloc button:focus,
+.d-bloc .panel button:focus
+ {
     color: rgb(0, 0, 0);
 }
 
-.d-bloc .panel button:focus {
-    background-color: yellow;
-}
+
 
 .l-bloc .icon-round,
 .l-bloc .icon-square,
@@ -387,15 +380,14 @@ a:hover {
     background: transparent;
 }
 
-.nav>li a:focus {
-    background-color: yellow;
-}
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
 }
 
+.navbar-toggle:hover,
 .navbar-toggle:hover {
     background: transparent !important;
 }
@@ -523,9 +515,7 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-.btn-d:focus {
-    background-color: yellow;
-}
+
 
 .btn-rd {
     border-radius: 40px;
@@ -571,18 +561,18 @@ nav .caret {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    height:25px;
-    width:99%;
+    height: 25px;
+    width: 99%;
 }
 
-.form-message{
-    height:150px;
+.form-message {
+    height: 150px;
 }
 
 .form-group {
-    margin:auto;
-    width:700px;
-    margin-bottom:30px;
+    margin: auto;
+    width: 700px;
+    margin-bottom: 30px;
 
 }
 
@@ -1131,11 +1121,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
     .title2 img {
         width: 100%;
     }
+
     /* MODIF PROJET SEO */
-    
+
 
 }
 
@@ -1151,9 +1143,10 @@ h4 {
     }
 
     .form-control {
-        width:98%;
+        width: 98%;
     }
-    .form-group{
-        width:99%;
+
+    .form-group {
+        width: 99%;
     }
 }
