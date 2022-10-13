@@ -98,7 +98,7 @@ a:hover {
 }
 
 .footer_texte {
-    color: black;
+    color: white;
 }
 
 .bg-center,
@@ -246,9 +246,7 @@ color: rgba(0, 0, 0, .7);
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover,
-.l-bloc button,
-.l-bloc button:focus,
-.d-bloc .panel button:focus
+.l-bloc button
  {
     color: rgb(0, 0, 0);
 }
@@ -385,8 +383,12 @@ color: rgba(0, 0, 0, .7);
 
 .navbar-toggle{
     margin: 10px 10px 0 0;
-    border: 0px;
+
 }
+
+.navbar-toggle:focus{
+    border: 1px solid black;
+   }
 
 .navbar-toggle:hover {
     background: transparent !important;
@@ -830,7 +832,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #AC5C35;
 }
 
 .tc-white {
@@ -839,12 +841,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #424242 !important;
+    background: #AC5C35;
+    
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: #AC5C35 !important;
     color: #FFFFFF !important;
 }
 
