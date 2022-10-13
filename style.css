@@ -365,7 +365,7 @@ color: rgba(0, 0, 0, .7);
     z-index: 1;
 }
 
-.nav>li {
+.nav>li{
     float: left;
     font-size: 16px;
     padding-right: 15px;
@@ -376,18 +376,18 @@ color: rgba(0, 0, 0, .7);
     text-align: inherit;
 }
 
-.nav>li a:hover {
+.nav>li a:hover
+ {
     background: transparent;
 }
 
 
 
-.navbar-toggle {
+.navbar-toggle{
     margin: 10px 10px 0 0;
     border: 0px;
 }
 
-.navbar-toggle:hover,
 .navbar-toggle:hover {
     background: transparent !important;
 }
