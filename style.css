@@ -77,6 +77,11 @@ a:hover {
     position: relative;
 }
 
+.description--modif{
+    font-style: italic;
+    font-size: 1.5em;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
